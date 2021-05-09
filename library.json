@@ -1,0 +1,10 @@
+{
+  "name": "LNCVDefaultStorage",
+  "version": "0.1.0",
+  "keywords": "AVR, Railroad, LocoNet, ESP8266, STM32F1",
+  "description": "This library allows you to store/read LocoNet CVs as LocoNet System Variables.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evili/LNCVDefaultStorage"
+  }
+}

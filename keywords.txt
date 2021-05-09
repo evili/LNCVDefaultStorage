@@ -1,0 +1,12 @@
+# Datatypes (KEYWORD1)
+
+# Methods and Functions (KEYWORD2)
+readModuleAddress	KEYWORD2
+notifySVChanged		KEYWORD2
+SET_ARTNT		KEYWORD2
+
+# Libraries
+LNCVDefaultStorage	KEYWORD3
+
+# Constants (LITERAL1)
+artNr
