@@ -4,7 +4,7 @@
 #include <LocoNet.h>
 
 #define VARIABLE_NAME_ARTNR artNr
-#define _LNCV_TYPE_ARTNR const prog_uint16_t 
+#define _LNCV_TYPE_ARTNR const uint16_t
 #define _LNCV_VARIABLE_ARTNR _LNCV_TYPE_ARTNR VARIABLE_NAME_ARTNR PROGMEM
 
 #define SET_ARTNT(value) _LNCV_VARIABLE_ARTNR = (value);
