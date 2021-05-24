@@ -3,7 +3,7 @@
 
 #define DO_DEBUG
 
-const uint16_t artNr = 4321;
+const prog_uint16_t artNr = 4321;
 
 LocoNetSystemVariableClass sv;
 lnMsg       *LnPacket;
@@ -13,7 +13,7 @@ boolean     deferredProcessingNeeded = false;
 void setup() {
   Serial.begin(115200);
   LocoNet.init(); 
-  sv.init(13, 42, 9685, 1);
+  sv.init(13, 42, 4321, 1);
 
   sv.writeSVStorage(SV_ADDR_NODE_ID_H, 1 );
   sv.writeSVStorage(SV_ADDR_NODE_ID_L, 0);

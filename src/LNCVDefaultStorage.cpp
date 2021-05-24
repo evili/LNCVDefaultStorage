@@ -8,7 +8,7 @@ bool programmingModeActive = false;
 #define LNCV_SPECIAL_VALUE_OFFSET (2)
 #define LNCV_ADDR_MODULEADDR (0)
 
-#define LOAD_ARTNR pgm_read_word(VARIABLE_NAME_ARTNR);
+#define LOAD_ARTNR (VARIABLE_NAME_ARTNR);
 
 uint16_t readModuleAddress() {
 	uint16_t result = eeprom_read_byte((uint8_t*)(SV_ADDR_NODE_ID_H - LNCV_SPECIAL_VALUE_OFFSET));
